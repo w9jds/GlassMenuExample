@@ -35,7 +35,7 @@ public class MainActivity extends Activity
 		//set the text of the card to the hello world string
 		cView.setText(R.string.hello_world);
 		//set the card as the content view
-		setContentView(cView.toView());
+		setContentView(cView.getView());
 		
 		
 	}
